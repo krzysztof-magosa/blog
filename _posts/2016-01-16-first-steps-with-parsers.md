@@ -4,7 +4,7 @@ title: First steps with parsers
 ---
 
 Hi Folks!
-This is my very first article, so I count for your feedback.
+This is my very first article, so I count on your feedback.
 
 One of the very popular parts of software is parser.
 We use parsers every day, whether we open website, compile our program or load configuration from file.
@@ -14,7 +14,7 @@ load it without knowledge about parsers. But what happens if you would like to c
 Domain Specific Language or own format of configuration file? Then you need to know how to build
 parsers, and in this cycle of articles I will try to show you how to do that.
 
-When we say _parser_ we usually mean lexical analyser connected with actual parser which understands
+And when we say _parser_ we usually mean lexical analyser connected with actual parser which understands
 the grammar of language we would like to parse.
 
 Commonly used toolset is:
@@ -78,7 +78,7 @@ We will use C function _atoi_ which converts string into a integer.
 [0-9]+  yylval = atoi(yytext); return T_INT;
 ```
 
-Rules for our lexer are ready, that's sufficient to parse very simple mathematican formulas.
+Rules for our lexer are ready, that's sufficient to parse very simple mathematical formulas.
 
 Now let's define our grammar - list of rules how tokens can be used with each other.
 In the input of our program we expect list of cases to calculate:
@@ -111,7 +111,7 @@ It means that expression may be one of 4 basic operations:
 * number * number
 
 For each combination it performs desired operation and display it's result.
-_$1_ and _$3_ point accordingly to first and third argument of our rule.
+_$1_ and _$3_ points accordingly to first and third argument of our rule.
 
 We need one more thing, declare tokens so _yacc_ knows which ones will be used.
 
