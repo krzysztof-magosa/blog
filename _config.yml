@@ -41,7 +41,7 @@ theme:
 
   # Scripts
   google_analytics: "UA-52561301-4" # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  disqus_shortname: "krzysztofmagosablog"
   katex: true # Enable if using math markup
 
   # Localization strings
