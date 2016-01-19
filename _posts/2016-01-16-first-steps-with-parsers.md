@@ -1,6 +1,7 @@
 ---
 layout: post
 title: First steps with parsers
+excerpt: <p>Introduction to the first program using lex and yacc...</p>
 ---
 
 Hi Folks!

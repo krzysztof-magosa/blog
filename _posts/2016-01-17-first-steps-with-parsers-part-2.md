@@ -1,6 +1,7 @@
 ---
 layout: post
 title: First steps with parsers - part 2
+excerpt: <p>Article about chaining operators in yacc...</p>
 ---
 
 Hi guys.
